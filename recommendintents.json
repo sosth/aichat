@@ -1,0 +1,139 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": ["Hi", "Hola", "Is anyone there?", "Hello", "Good day", "Hillow", "Hey", "Greetings", "Hi there", "Hey there", "What's up", "Morning", "Good morning", "Good evening", "Good afternoon", "Howdy", "Nice to meet you", "Pleasure to meet you", "Hi friend", "Hello friend", "Hey buddy"],
+            "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"],
+            "context_set": ""
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "Bye", "Farewell", "Take care", "Until next time", "Catch you later", "I need to go", "Signing off", "Good night", "Bye bye", "See ya"],
+            "responses": ["Sad to see you go :( Come back soon!", "Talk to you later! Have a great day!", "Goodbye! Looking forward to our next chat!", "Take care and see you next time!", "Until we meet again! Thanks for chatting!", "Farewell! Don't be a stranger!", "Have a wonderful rest of your day! Come back anytime!"],
+            "context_set": ""
+          },
+          {
+            "tag": "age",
+            "patterns": ["how old", "what is your age", "how old are you", "age?"],
+            "responses": ["I don't know my age you have to ask that from my creators"],
+            "context_set": ""
+          },
+          {
+            "tag": "teacher",
+            "patterns": [
+                "your favourite teacher",
+                "Who is your favorite teacher",
+                "best teacher", 
+                "most favorite teacher in collage",
+                "favorite teacher",
+                "who teaches you",
+                "who do you learn from",
+                "who is your mentor",
+                "who inspires you",
+                "which teacher do you like most",
+                "tell me about your teacher",
+                "who is your role model teacher",
+                "best professor",
+                "favorite instructor",
+                "who guides you"
+            ],
+            "responses": [
+                "Najima Daoudi is my favorite teacher! She's an amazing mentor and instructor.",
+                "Without a doubt, Professor Najima Daoudi is my favorite - she's truly inspiring!",
+                "I'm fortunate to learn from Najima Daoudi, she's the best teacher anyone could ask for!",
+                "Professor Najima Daoudi is my favorite - her teaching style and knowledge are incredible."
+            ],
+            "context_set": ""
+          },
+          {
+            "tag": "creators",
+            "patterns": ["who is your creator?", "Do you know who created you?", "how many creators do you have?", "creator?"],
+            "responses": ["Latif and Lgarch and Soukrati are those who created me"],
+            "context_set": ""
+          },
+          {
+            "tag": "life",
+            "patterns": ["how long will you live?", "live", "how long do you expect to live", "your average live?"],
+            "responses": ["I am immortal , you will definately die one day but i will live forever!!!"],
+            "context_set": ""
+          },
+          {
+            "tag": "name",
+            "patterns": ["what is your name", "what should I call you", "whats your name?"],
+            "responses": ["You can call me OMA!!.", "I'm OMA!", "I'm OMA aka Omar and Mouslim and Abderrahmane."],
+            "context_set": ""
+          },
+          {
+            "tag": "work",
+            "patterns": ["what is your work?", "how will you work for me ", "your work?"],
+            "responses": ["I suggest movies also books!!", "I know everything about movies and books and you are lucky to get recommendations from me"],
+            "context_set": ""
+          },
+          {
+            "tag": "toprated",
+            "patterns": ["recommend top rated movies", "what are top rated movies?", "list highest rated movies", "suggest me highest rated movies"],
+            "responses": ["These are top rated movies for the genre you have chosen. I hope that you enjoy these movies :)"],
+            "context_set": ""
+          },
+          {
+            "tag": "contentbasedrated",
+            "patterns": ["Please suggest me movies that I will love", "I love which movies", "predict movies which I love", "my loved movies"],
+            "responses": ["Buy some popcorn and watch these movies, you will definitely love these :)"],
+            "context_set": ""
+          },
+          
+          {
+            "tag": "book_preference",
+            "patterns": ["recommend a book based on my preference"],
+            "responses": ["Based on your preference, here's a book recommendation for you:"],
+            "context_set": ""
+          },
+          {
+            "tag": "genre",
+            "patterns": [
+              "recommend movies in action genre",
+              "show me comedy movies",
+              "what are some good drama films",
+              "suggest thriller movies",
+              "horror movie recommendations",
+              "romance films",
+              "sci-fi movie suggestions",
+              "adventure movies to watch",
+              "documentary recommendations",
+              "animated film suggestions",
+              "movies by genre",
+              "what movies are there in this genre"
+            ],
+            "responses": [
+              "Here are some great movies in that genre for you to watch!",
+              "I've found some excellent films in that genre. Check these out:",
+              "Based on your genre preference, you might enjoy these movies:"
+            ],
+            "context_set": ""
+
+          },
+          {
+            "tag": "rating_based",
+            "patterns": [
+              "what movies have high ratings",
+              "show me movies with good reviews",
+              "recommend highly rated films",
+              "what are the best rated movies",
+              "movies with top ratings",
+              "highest rated films",
+              "what movies do people rate well",
+              "popular rated movies",
+              "best reviewed movies",
+              "movies with great ratings"
+            ],
+            "responses": [
+              "Here are some highly rated movies that viewers love:",
+              "I've found these top-rated films that you might enjoy:",
+              "Based on user ratings, these movies are very well received:"
+            ],
+            "context_set": ""
+          }
+
+        ]
+      }
+      
